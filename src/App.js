@@ -117,6 +117,20 @@ function App() {
           </div>
         </div>
       </header>
+      <footer>
+        Made by{' '}
+        <span>
+          <a
+            className="effect-underline"
+            href="https://dannyboy.dev/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Danny
+          </a>{' '}
+        </span>
+        ✌️
+      </footer>
     </div>
   )
 }
