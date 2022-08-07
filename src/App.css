@@ -104,10 +104,10 @@ button {
 }
 
 .btn.striped-shadow.dark span {
-  border-color: #393939;
+  border-color: #000;
   /* background: #77bfa1; */
   background: #ffe194;
-  color: #393939;
+  color: #000;
 }
 
 .btn {
@@ -124,7 +124,6 @@ button {
     transform .3s,
     -webkit-transform .3s;
   z-index: 1;
-  background-color: transparent;
   cursor: pointer;
   width: 155px;
   height: 48px;
@@ -136,8 +135,8 @@ button.btn.striped-shadow.dark:after, button.btn.striped-shadow.dark:before {
     135deg,
     transparent 0,
     transparent 5px,
-    #393939 5px,
-    #393939 10px,
+    #000 5px,
+    #000 10px,
     transparent 10px
   );
 }
