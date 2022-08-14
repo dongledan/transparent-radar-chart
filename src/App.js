@@ -38,7 +38,7 @@ function App() {
 
       if (dataState && dataState[0]?.data) {
         const newDataState = dataState.map((object) => {
-          const updatedObject = (object.data[name] = Number(value))
+          const updatedObject = (object.data[name] = Number(value) / 5)
           return {...object, updatedObject}
         })
 
@@ -70,9 +70,9 @@ function App() {
                   type="number"
                   onChange={handleDataChange}
                   name="food"
-                  min="0.0"
-                  step="0.2"
-                  max="1.00"
+                  min="0"
+                  step="1"
+                  max="5"
                 />
               </div>
               <div className="caption-item">
@@ -81,9 +81,9 @@ function App() {
                   type="number"
                   onChange={handleDataChange}
                   name="price"
-                  min="0.0"
-                  step="0.2"
-                  max="1.00"
+                  min="0"
+                  step="1"
+                  max="5"
                 />
               </div>
               <div className="caption-item">
@@ -92,9 +92,9 @@ function App() {
                   type="number"
                   onChange={handleDataChange}
                   name="service"
-                  min="0.0"
-                  step="0.2"
-                  max="1.00"
+                  min="0"
+                  step="1"
+                  max="5"
                 />
               </div>
               <div className="caption-item">
@@ -103,9 +103,9 @@ function App() {
                   type="number"
                   onChange={handleDataChange}
                   name="environment"
-                  min="0.0"
-                  step="0.2"
-                  max="1.00"
+                  min="0"
+                  step="1"
+                  max="5"
                 />
               </div>
             </div>
