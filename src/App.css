@@ -22,23 +22,24 @@
 }
 
 /* Radar Chart Styling */
+
 .shape {
   fill-opacity: .3;
 }
 
 .scale {
   fill: transparent;
-  stroke: #999;
+  stroke: #777;
   stroke-width: .2;
 }
 
 .axis {
-  stroke: #555;
-  stroke-width: .2
+  stroke: #000;
+  stroke-width: .3
 }
 
 .caption {
-  fill: #444;
+  fill: #000;
   font-weight: 700;
   font-size: .7rem;
 }
@@ -51,6 +52,7 @@
 }
 
 /* Footer Styling */
+
 footer {
   margin: 45px;
 }
@@ -85,16 +87,16 @@ a.effect-underline:hover:after {
 }
 
 /* Captions Styling */
+
 .caption-list {
   display: grid;
   margin: 45px 0;
-  /* grid-template-columns: 1fr 1fr; */
 }
 
 .caption-item {
   display: grid;
   margin: 5px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 0fr 1fr 0fr;
 }
 
 .caption-label {
@@ -107,9 +109,18 @@ input {
   border: 5px #000 solid;
   text-align: center;
   font-size: 1.1rem;
+  margin: 0 5px;
 }
 
 /* Button Styling */
+
+.delete-button {
+  color:red;
+  background: none;
+  font-size: large;
+  margin: 0;
+  padding: 0;
+}
 
 *, :after, :before {
   box-sizing: border-box;
@@ -139,7 +150,6 @@ button {
 
 .btn.striped-shadow.dark span {
   border-color: #000;
-  /* background: #77bfa1; */
   background: #ffe194;
   color: #000;
 }
