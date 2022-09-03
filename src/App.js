@@ -80,7 +80,7 @@ function App() {
 
   const handleDelete = useCallback(
     (e) => {
-      const {name, value} = e.target
+      const {value} = e.target
       let newDataState = [...dataState]
       let newCaptionsState = {...captionsState}
 
